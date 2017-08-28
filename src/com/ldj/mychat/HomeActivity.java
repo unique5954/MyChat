@@ -71,7 +71,7 @@ public class HomeActivity extends FragmentActivity implements OnTabChangeListene
 		tabHost.addTab(spec, MyFragment.class, null);
 		
 		//tab之间的分隔符去色
-//		tabHost.getTabWidget().setDividerDrawable(android.R.color.white);
+		tabHost.getTabWidget().setDividerDrawable(android.R.color.white);
 
 		//当前选中的Tab
 		tabHost.setCurrentTabByTag(TAG_CHAT);
